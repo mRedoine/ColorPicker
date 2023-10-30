@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace 'ir.kotlin.kavehcolorpicker'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         minSdk 18
@@ -43,8 +43,8 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.Mohammad3125'
-                artifactId = 'KavehColorPicker'
+                groupId = 'com.github.mRedoine'
+                artifactId = 'ColorPicker'
                 version = '1.0.0'
             }
         }
